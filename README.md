@@ -8,7 +8,17 @@ Repository: https://github.com/rmitran-foundever/Global-Campaign-Overview-Telco
 
 Expected GitHub Pages URL: https://rmitran-foundever.github.io/Global-Campaign-Overview-Telco/
 
-The Pages workflow is included in `.github/workflows/pages.yml`. After GitHub Actions finishes the first deployment, the dashboard should be available at the Pages URL above.
+## Enable GitHub Pages
+
+This repo is ready for branch-based GitHub Pages hosting. In GitHub:
+
+1. Go to **Settings**.
+2. Open **Pages** in the left sidebar.
+3. Under **Build and deployment**, set **Source** to **Deploy from a branch**.
+4. Set **Branch** to `main` and folder to `/ (root)`.
+5. Save.
+
+After GitHub finishes the first Pages deployment, the dashboard should load at the URL above.
 
 ## What It Includes
 
