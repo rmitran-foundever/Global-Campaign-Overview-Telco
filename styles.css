@@ -562,6 +562,8 @@ main {
 .activity-table input,
 .activity-table select,
 .activity-table textarea,
+.abm-table select,
+.abm-table textarea,
 .performance-table input {
   width: 100%;
   min-height: 32px;
@@ -577,6 +579,8 @@ main {
 .activity-table input:focus,
 .activity-table select:focus,
 .activity-table textarea:focus,
+.abm-table select:focus,
+.abm-table textarea:focus,
 .performance-table input:focus {
   border-color: var(--blue);
   outline: 3px solid rgba(0, 115, 234, 0.14);
@@ -729,6 +733,87 @@ th {
 
 .activity-table .priority-select {
   min-width: 102px;
+}
+
+.abm-panel {
+  margin-bottom: 16px;
+}
+
+.abm-panel .table-shell {
+  border-left: 4px solid var(--green);
+}
+
+.abm-table {
+  min-width: 980px;
+}
+
+.abm-table th:nth-child(1),
+.abm-table td:nth-child(1) {
+  width: 22%;
+}
+
+.abm-table th:nth-child(2),
+.abm-table td:nth-child(2) {
+  width: 24%;
+}
+
+.abm-table th:nth-child(3),
+.abm-table td:nth-child(3) {
+  width: 26%;
+}
+
+.abm-table th:nth-child(4),
+.abm-table td:nth-child(4),
+.abm-table th:nth-child(5),
+.abm-table td:nth-child(5) {
+  width: 14%;
+}
+
+.abm-account-name {
+  display: flex;
+  min-height: 38px;
+  align-items: center;
+  gap: 10px;
+  line-height: 1.3;
+}
+
+.abm-dot {
+  flex: 0 0 auto;
+  width: 10px;
+  height: 10px;
+  border-radius: 999px;
+  background: var(--green);
+}
+
+.abm-textarea {
+  min-height: 72px;
+  line-height: 1.35;
+  resize: vertical;
+}
+
+.abm-status {
+  min-width: 132px;
+  color: #fff;
+  border-color: transparent;
+  font-weight: 900;
+  text-align: center;
+}
+
+.abm-status.tone-abm-not-started {
+  background: var(--red);
+}
+
+.abm-status.tone-abm-in-progress {
+  background: var(--blue);
+}
+
+.abm-status.tone-abm-ready {
+  color: #3f2b00;
+  background: var(--orange);
+}
+
+.abm-status.tone-abm-delivered {
+  background: var(--green);
 }
 
 .status-select.tone-complete,
