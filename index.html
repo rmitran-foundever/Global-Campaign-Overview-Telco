@@ -17,6 +17,7 @@
           <a href="#overview">Overview</a>
           <a href="#priorities">Priorities</a>
           <a href="#tracker">Tracker</a>
+          <a href="#abm">ABM Accounts</a>
           <a href="#blockers">Blockers</a>
           <a href="#launch">Launch Data</a>
         </nav>
@@ -171,6 +172,30 @@
         <p class="table-note" id="tracker-count">Showing 0 activities.</p>
       </section>
 
+      <section class="panel abm-panel" id="abm" aria-labelledby="abm-title">
+        <div class="panel-heading panel-heading-wrap">
+          <div>
+            <p class="eyebrow">ABM target accounts</p>
+            <h2 id="abm-title">Account GTM Process</h2>
+          </div>
+          <span class="small-pill" id="abm-summary">0 accounts</span>
+        </div>
+        <div class="table-shell">
+          <table class="abm-table">
+            <thead>
+              <tr>
+                <th scope="col">Account Name</th>
+                <th scope="col">Owners</th>
+                <th scope="col">Meetings</th>
+                <th scope="col">GTM Plan</th>
+                <th scope="col">GTM Delivery</th>
+              </tr>
+            </thead>
+            <tbody id="abm-body"></tbody>
+          </table>
+        </div>
+      </section>
+
       <section class="dashboard-grid" id="blockers" aria-label="Blockers and launch tracking">
         <article class="panel panel-wide" aria-labelledby="stuck-title">
           <div class="panel-heading">
@@ -240,5 +265,6 @@
 
     <div id="toast" class="toast" role="status" aria-live="polite"></div>
     <script src="app.js"></script>
+    <script src="abm.js"></script>
   </body>
 </html>
