@@ -1,10 +1,14 @@
 # Telco Campaign Overview Dashboard
 
-This is a static, GitHub Pages-ready dashboard seeded from `Q2 Global Telecom Campaign Activity Tracker.xlsx`.
+Static campaign command center for the Global Telco campaign, seeded from `Q2 Global Telecom Campaign Activity Tracker.xlsx`.
 
-## Open Locally
+## Dashboard
 
-Open `index.html` in a browser, or serve this folder with any simple static web server.
+Repository: https://github.com/rmitran-foundever/Global-Campaign-Overview-Telco
+
+Expected GitHub Pages URL: https://rmitran-foundever.github.io/Global-Campaign-Overview-Telco/
+
+The Pages workflow is included in `.github/workflows/pages.yml`. After GitHub Actions finishes the first deployment, the dashboard should be available at the Pages URL above.
 
 ## What It Includes
 
@@ -16,12 +20,5 @@ Open `index.html` in a browser, or serve this folder with any simple static web 
 - Editable full-funnel launch performance table.
 - Browser storage persistence.
 - JSON export/import for backup and handoff.
-
-## Publish On GitHub Pages
-
-1. Create a GitHub repository.
-2. Add `index.html`, `styles.css`, `app.js`, and `README.md`.
-3. In the repository settings, enable Pages from the main branch.
-4. Share the generated GitHub Pages URL with the team.
 
 The first version is public-link friendly but does not include shared live editing. Team collaboration with a backend can be added later.
